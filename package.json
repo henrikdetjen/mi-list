@@ -1,0 +1,34 @@
+{
+  "name": "mi-list",
+  "version": "1.0.0",
+  "description": "shopping list",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "ui-dev": "browser-sync 'http://localhost:3000/' 'public' -w",
+    "build": "babel public/src -d public/lib --presets @babel/preset-react --plugins @babel/plugin-proposal-class-properties"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikdetjen/mi-list.git"
+  },
+  "author": "henrikdetjen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikdetjen/mi-list/issues"
+  },
+  "homepage": "https://github.com/henrikdetjen/mi-list#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "browser-sync": "^2.24.7",
+    "mocha": "^5.2.0",
+    "unirest": "^0.5.1"
+  }
+}

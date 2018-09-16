@@ -1,0 +1,23 @@
+{
+	"lastChanged": "ISODATE",
+	"list": [
+		{
+			"id": "0",
+			"name": "butter",
+			"currentAmount": 1,
+			"desiredAmount": 4
+		},
+		{
+			"id": "1",
+			"name": "wurst",
+			"currentAmount": 3,
+			"desiredAmount": 5
+		},
+		{
+			"id": "2",
+			"name": "käse",
+			"currentAmount": 6,
+			"desiredAmount": 6
+		}
+	]
+}
